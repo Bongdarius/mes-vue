@@ -1,0 +1,11 @@
+{
+    "name": "mes-vue",
+    "features": {
+        "git": "builtin"
+    },
+    "extensions": [
+        "Vue.volar",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+    ]
+}
