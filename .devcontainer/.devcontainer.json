@@ -1,0 +1,15 @@
+{
+  "name": "mes-vue-devcontainer",
+  "image": "node:22-alpine", // Use a lightweight Node.js image
+  "extensions": [
+    "dbaeumer.vscode-eslint", // ESLint support
+    "ms-vscode.cpptools", // If you have C/C++ code, uncomment this
+    "esbenp.prettier-vscode", // Prettier integration
+    "octref.vetur" // Vue.js language support
+  ],
+  "postCreateCommand": "npm install", // Install project dependencies
+  "forwardPorts": [
+    // Uncomment if you need to access the development server from the host machine
+    // { "hostPort": 3000, "containerPort": 3000 } 
+  ]
+}
